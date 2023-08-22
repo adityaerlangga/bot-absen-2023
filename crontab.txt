@@ -1,0 +1,15 @@
+TZ=Asia/Jakarta
+SHELL=/bin/bash
+PATH=/usr/local/bin/:/usr/bin:/usr/sbin
+
+#buat-testing
+* * * * * export DISPLAY=:0 && export PATH=$PATH:/usr/local/bin && /usr/bin/python3 /root/adit.py 
+0 8-15 * * * export DISPLAY=:0 && export PATH=$PATH:/usr/local/bin && /usr/bin/python3 /root/adit.py
+5 8-15 * * * export DISPLAY=:0 && export PATH=$PATH:/usr/local/bin && /usr/bin/python3 /root/adit.py
+10 8-15 * * * export DISPLAY=:0 && export PATH=$PATH:/usr/local/bin && /usr/bin/python3 /root/adit.py
+15 8-15 * * * export DISPLAY=:0 && export PATH=$PATH:/usr/local/bin && /usr/bin/python3 /root/adit.py
+30 8-15 * * * export DISPLAY=:0 && export PATH=$PATH:/usr/local/bin && /usr/bin/python3 /root/adit.py
+
+0 8-15 * * * export DISPLAY=:0 && export PATH=$PATH:/usr/local/bin && /usr/bin/python3 /home/aditya/bot-absen/manda.py
+5 8-15 * * * export DISPLAY=:0 && export PATH=$PATH:/usr/local/bin && /usr/bin/python3 /home/aditya/bot-absen/manda.py
+30 8-15 * * * export DISPLAY=:0 && export PATH=$PATH:/usr/local/bin && /usr/bin/python3 /home/aditya/bot-absen/manda.py
